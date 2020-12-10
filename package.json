@@ -1,22 +1,25 @@
 {
   "name": "employee-tracker",
   "version": "1.0.0",
-  "description": "This is a command linke application that is designed to allow a user to manage their employees through a simple and easier to use interface. It will allow for the user to create new employees, update existing employees and delete information as needed in their data base.",
-  "main": "db.js",
+  "description": "",
+  "main": "employee.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kyle-gibson/Employee-Tracker.git"
+    "url": "git+https://github.com/kyle-gibson/employee-tracker.git"
   },
+  "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/kyle-gibson/Employee-Tracker/issues"
+    "url": "https://github.com/kyle-gibson/employee-tracker"
   },
-  "homepage": "https://github.com/kyle-gibson/Employee-Tracker#readme",
+  "homepage": "https://github.com/kyle-gibson/employee-tracker#readme",
   "dependencies": {
-    "inquirer": "^7.3.3"
-  }
+    "console.table": "^0.10.0",
+    "inquirer": "^7.3.3",
+    "mysql": "^2.18.1"
+  }  
 }
