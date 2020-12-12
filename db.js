@@ -4,16 +4,16 @@ const cTable = require('console.table');
 var mysql = require("mysql");
 const util = require("util");
 
-const logo = require('asciiart-logo');
-const config = require('./package.json');
-console.log(logo(config).render());
+//const logo = require('asciiart-logo');
+//const config = require('./package.json');
+//console.log(logo(config).render());
 
 const connection = mysql.createConnection({
     host: "localhost",
     port: 3306,
     user: "root",
-    password: "Cheeseme1",
-    database: "Employee_Tracker"
+    password: "Susej123!",
+    database: "db.js"
 });
 
 connection.connect((err) => {
@@ -25,7 +25,6 @@ connection.connect((err) => {
 
   
     runSearch();
-
 })
 
 connection.query = util.promisify(connection.query);
